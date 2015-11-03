@@ -17,4 +17,18 @@ end
 
 
 
+# Peter's examples:
+# puts "Enter your 5 favorite foods:"
+# foods = []
+# 5.times do
+#   foods << gets.chomp
+# end
 
+# Another way to do the above loop:
+# foods = (1..5).map do
+#   gets.chomp
+# end
+
+# foods.each_with_index do |food, index|
+#   p "#{index + 1}. #{food}"
+# end
