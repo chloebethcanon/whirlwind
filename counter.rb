@@ -7,3 +7,5 @@ while count <= 10
     break
   end
 end
+
+#Step 2b: if answer != 5 means "if answer is not equal to 5"
